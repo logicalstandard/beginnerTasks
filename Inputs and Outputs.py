@@ -8,12 +8,20 @@ def problem2():
     print("Hello " + task2_name)
 
 def problem3():
-    task2_name = input("What is your name? ")
-    task2_favouriteColour = input("What is your favourite colour? ")
-    print("OK " + task2_name + ", you like the colour " + task2_favouriteColour + ".")
+    task3_name = input("What is your name? ")
+    task3_favouritecolour = input("What is your favourite colour? ")
+    print("OK " + task3_name + ", you like the colour " + task3_favouritecolour + ".")
 
+def problem4():
+    task4_number = float(input("Please enter a number: "))
+    task4_half = task4_number / 2
+    print("Half of your number is " + str(task4_half) + "!")
 
-
+def problem5():
+    task5_score = int(input("Please enter a score: "))
+    task5_maximumScore = int(input("Please enter a maximum score: "))
+    task5_percentage = task5_score / task5_maximumScore * 100
+    print("Your score is " + str(task5_percentage) + "%")
 
 
 # Task picker
@@ -28,6 +36,10 @@ def main():
             problem2()
         elif choice == "3":
             problem3()
+        elif choice == "4":
+            problem4()
+        elif choice == "5":
+            problem5()
 
 
 if __name__ == "__main__":
