@@ -7,6 +7,11 @@ def problem2():
     task2_name = input("What is your name? ")
     print("Hello " + task2_name)
 
+def problem3():
+    task2_name = input("What is your name? ")
+    task2_favouriteColour = input("What is your favourite colour? ")
+    print("OK " + task2_name + ", you like the colour " + task2_favouriteColour + ".")
+
 
 
 
@@ -21,6 +26,8 @@ def main():
             problem1()
         elif choice == "2":
             problem2()
+        elif choice == "3":
+            problem3()
 
 
 if __name__ == "__main__":
