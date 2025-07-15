@@ -23,6 +23,20 @@ def problem5():
     task5_percentage = task5_score / task5_maximumScore * 100
     print("Your score is " + str(task5_percentage) + "%")
 
+def problem6():
+    task6_num1 = int(input("Please enter your first number: "))
+    task6_num2 = int(input("Please enter your second number: "))
+    task6_num3 = int(input("Please enter your third number: "))
+    task6_total = task6_num1 + task6_num2 + task6_num3
+    print(task6_total)
+
+def problem7():
+    task7_input = input("Please enter a phrase: ")
+    i = 1
+    while i < 4:
+        print(task7_input, end=" ")
+        i = i + 1
+
 
 # Task picker
 def main():
@@ -40,6 +54,10 @@ def main():
             problem4()
         elif choice == "5":
             problem5()
+        elif choice == "6":
+            problem6()
+        elif choice == "7":
+            problem7()
 
 
 if __name__ == "__main__":
