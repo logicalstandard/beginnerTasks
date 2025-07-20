@@ -37,6 +37,11 @@ def problem7():
         print(task7_input, end=" ")
         i = i + 1
 
+def problem8():
+    task8_num1 = int(input("Enter your first number: "))
+    task8_num2 = int(input("Enter your second number: "))
+    task8_percentage = task8_num1 / task8_num2 * 100
+    print(str(task8_num1) + " is " + str(task8_percentage) + "% of " + str(task8_num2))
 
 # Task picker
 def main():
@@ -58,6 +63,8 @@ def main():
             problem6()
         elif choice == "7":
             problem7()
+        elif choice == "8":
+            problem8()
 
 
 if __name__ == "__main__":
