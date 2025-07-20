@@ -40,6 +40,22 @@ def problem8():
     task8_percentage = task8_num1 / task8_num2 * 100
     print(str(task8_num1) + " is " + str(task8_percentage) + "% of " + str(task8_num2))
 
+def problem9():
+    task9_item1 = input("Enter your first item that you would like to purchase: ")
+    task9_price1 = float(input("Enter the cost of the item in GBP: "))
+    task9_item2 = input("Enter your second item that you would like to purchase: ")
+    task9_price2 = float(input("Enter the cost of the item in GBP: "))
+    task9_totalPrice = task9_price1 + task9_price2
+    print(task9_item1 + " and " + task9_item2 + " will cost £" + str(task9_totalPrice))
+
+def problem10():
+    task10_name = input("Please enter your name: ")
+    task10_age = int(input("Please enter your age: "))
+    task10_height = float(input("Please enter your height in centimetres: "))
+    task10_newHeight = task10_height * 1.05
+    task10_newAge = task10_age + 1
+    print("When " + task10_name + " is " + str(task10_newAge) + " years old, he will be approximately " + str(task10_newHeight) + " centimetres tall.")
+
 # Task picker
 def main():
     while True:
@@ -62,6 +78,12 @@ def main():
             problem7()
         elif choice == "8":
             problem8()
+        elif choice == "9":
+            problem9()
+        elif choice == "10":
+            problem10()
+        else:
+            print ("This is not a valid choice. Please select a number from 1-10")
 
 
 if __name__ == "__main__":
