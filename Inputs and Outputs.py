@@ -32,10 +32,7 @@ def problem6():
 
 def problem7():
     task7_input = input("Please enter a phrase: ")
-    i = 1
-    while i < 4:
-        print(task7_input, end=" ")
-        i = i + 1
+    print(task7_input, task7_input, task7_input)
 
 def problem8():
     task8_num1 = int(input("Enter your first number: "))
