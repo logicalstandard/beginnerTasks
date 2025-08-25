@@ -13,6 +13,18 @@ def problem1():
     task3()
 
 def problem2():
+    def askName():
+        name = input("What is your name")
+
+    def askAge():
+        age = int(input("What is your age?"))
+
+
+
+
+
+
+
 
 
 
