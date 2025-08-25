@@ -1,16 +1,19 @@
 def problem1():
-    def task1_task1():
+    def task1():
         print("This is task 1!")
 
-    def task1_task2():
+    def task2():
         print("This is task 2!")
 
-    def task1_task3():
+    def task3():
         print("This is task 3!")
 
-    task1_task1()
-    task1_task2()
-    task1_task3()
+    task1()
+    task2()
+    task3()
+
+def problem2():
+
 
 
 def main():
@@ -33,3 +36,27 @@ def main():
 
 if __name__ == "__main__":
                 main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
