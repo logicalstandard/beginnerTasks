@@ -14,10 +14,17 @@ def problem1():
 
 def problem2():
     def askName():
-        name = input("What is your name")
+        name = input("What is your name? ")
 
     def askAge():
-        age = int(input("What is your age?"))
+        age = int(input("What is your age? "))
+
+    choice = input("Would you like to teach me your name or age? Enter 1 for name, and 2 for age: ")
+    if choice == "1":
+        askName()
+        print("Your name is " + name)
+    elif choice == "2":
+        askAge()
 
 
 
@@ -45,8 +52,6 @@ if __name__ == "__main__":
                 main()
 
 
-
-# Test commit after resetting XPS
 
 
 
